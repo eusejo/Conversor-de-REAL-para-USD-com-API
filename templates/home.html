@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
     <div class="container">
@@ -20,7 +20,13 @@
                 <h2 class="resultado">USD:</h2>
             {% endif %}
         </div>
-        <br> <button type="">ver cotação</button>
+        <br> <button onclick="redirecionar()">VER COTAÇÃO</button>
     </div>
+
+    <script>
+        function redirecionar(){
+            window.location.href = "{{ url_for('cotacao') }}"
+        }
+    </script>
 </body>
 </html>
