@@ -1,0 +1,30 @@
+body {
+  background-color: #0f0f1c;
+  color: #e0e0f8;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.converter-box {
+  background-color: #1a1a2e;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(108, 99, 255, 0.3);
+}
+
+pre {
+  font-size: 2rem;
+}
