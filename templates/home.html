@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de REAL para USD</h1>
+        <div class="converter-box">
+            <form action="" method="post">
+                <input type="number" name="real" id="" placeholder="Valor de R$">
+                <button type="submit">Enviar</button>
+            </form>
+            {% if request.method == 'POST': %}
+                <h2 class="resultado">USD:{{dolar}}</h2>
+            {% elif request.method == 'GET': %}
+                <h2 class="resultado">USD:</h2>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
