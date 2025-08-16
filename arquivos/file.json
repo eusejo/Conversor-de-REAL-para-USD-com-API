@@ -4,12 +4,12 @@
   "codein": "BRL",
   "name": "Dólar Americano/Real Brasileiro",
   "high": "5.4143",
-  "low": "5.37955",
-  "varBid": "-0.01234",
-  "pctChange": "-0.228446",
-  "bid": "5.38944",
-  "ask": "5.40308",
-  "timestamp": "1755280590",
-  "create_date": "2025-08-15 14:56:30"
+  "low": "5.38291",
+  "varBid": "-0.00588",
+  "pctChange": "-0.108855",
+  "bid": "5.3959",
+  "ask": "5.4059",
+  "timestamp": "1755292986",
+  "create_date": "2025-08-15 18:23:06"
  }
 }
